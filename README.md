@@ -4,7 +4,7 @@ Premium marketing website for Scaleza, a growth engineering agency that combines
 
 ## Tech Stack
 
-- **Framework:** Next.js 14+ (App Router)
+- **Framework:** Next.js 16 (App Router)
 - **UI:** React 18+, TypeScript
 - **Styling:** TailwindCSS 4
 - **Animations:** Framer Motion

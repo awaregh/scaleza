@@ -7,7 +7,7 @@ import GradientBg from "@/components/animations/GradientBg";
 
 export default function HeroWithGradient() {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-slate-950 pt-20">
+    <section className="relative flex min-h-[90vh] items-center overflow-hidden bg-transparent pt-20">
       <GradientBg />
       <Container className="relative z-10 py-20 lg:py-32">
         <motion.div
@@ -22,9 +22,10 @@ export default function HeroWithGradient() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-7xl"
           >
-            Engineering Growth{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">
-              for Startups
+            Build Smarter.
+            <br />
+            <span className="bg-gradient-to-r from-blue-300 via-indigo-300 to-violet-300 bg-clip-text text-transparent">
+              Scale Faster.
             </span>
           </motion.h1>
           <motion.p
@@ -33,8 +34,8 @@ export default function HeroWithGradient() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mx-auto mt-6 max-w-2xl text-lg text-slate-400 sm:text-xl"
           >
-            Scaleza helps startups ship faster, acquire users, and scale infrastructure
-            with AI-powered development and growth systems.
+            A high-velocity product and growth studio for startups that need sharp
+            execution, clean systems, and measurable momentum.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

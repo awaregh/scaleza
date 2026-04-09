@@ -4,7 +4,7 @@ import Container from "./Container";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-slate-950">
+    <footer className="border-t border-white/10 bg-slate-950/60 backdrop-blur-sm">
       <Container className="py-12 lg:py-16">
         <div className="grid gap-8 md:grid-cols-4">
           {/* Brand */}

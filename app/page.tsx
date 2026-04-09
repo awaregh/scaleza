@@ -4,7 +4,6 @@ import Container from "@/components/layout/Container";
 import ServiceCard from "@/components/cards/ServiceCard";
 import CaseStudyCard from "@/components/cards/CaseStudyCard";
 import ProcessTimeline from "@/components/sections/ProcessTimeline";
-import TestimonialSection from "@/components/sections/TestimonialSection";
 import CTASection from "@/components/sections/CTASection";
 import FadeIn from "@/components/animations/FadeIn";
 import { services } from "@/data/services";
@@ -33,8 +32,8 @@ export default function HomePage() {
               What We Build
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-center text-slate-400">
-              Three disciplines, one team. We combine engineering, growth, and AI
-              to help startups move faster.
+              Product engineering, growth systems, and AI delivery designed for
+              founders who want premium execution.
             </p>
           </FadeIn>
           <div className="mt-12 grid gap-6 md:grid-cols-3">
@@ -58,7 +57,7 @@ export default function HomePage() {
               Proven Results
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-center text-slate-400">
-              Real impact for real startups. Here&apos;s a recent engagement.
+              Focused work, measurable outcomes, and systems built to scale.
             </p>
           </FadeIn>
           <div className="mt-12 mx-auto max-w-4xl">
@@ -75,13 +74,14 @@ export default function HomePage() {
               Built With Modern Tools
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-center text-slate-400">
-              We use the best tools available today to ship fast and scale reliably.
+              We pair modern architecture with practical tooling to move quickly
+              without sacrificing quality.
             </p>
           </FadeIn>
           <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
             {techStack.map((tech, i) => (
               <FadeIn key={tech} delay={i * 0.05}>
-                <span className="rounded-lg border border-white/5 bg-white/[0.02] px-4 py-2 text-sm text-slate-400">
+                <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-slate-300">
                   {tech}
                 </span>
               </FadeIn>
@@ -89,11 +89,6 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
-
-      {/* Testimonials */}
-      <div className="border-t border-white/5">
-        <TestimonialSection />
-      </div>
 
       {/* CTA */}
       <div className="border-t border-white/5">

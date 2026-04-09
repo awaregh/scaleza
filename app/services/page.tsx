@@ -7,7 +7,6 @@ import FeatureCard from "@/components/cards/FeatureCard";
 import Button from "@/components/ui/Button";
 import Badge from "@/components/ui/Badge";
 import ProcessTimeline from "@/components/sections/ProcessTimeline";
-import TestimonialSection from "@/components/sections/TestimonialSection";
 import CTASection from "@/components/sections/CTASection";
 import { services } from "@/data/services";
 
@@ -103,10 +102,6 @@ export default function ServicesPage() {
 
       <div className="border-t border-white/5">
         <ProcessTimeline />
-      </div>
-
-      <div className="border-t border-white/5">
-        <TestimonialSection />
       </div>
 
       <div className="border-t border-white/5">

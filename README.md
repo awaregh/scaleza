@@ -30,7 +30,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ## Pages
 
-- **/** - Landing page with hero, services, case studies, testimonials
+- **/** - Landing page with hero, services, and case studies
 - **/services** - Detailed service offerings
 - **/case-studies** - Client success stories
 - **/about** - Team, philosophy, and values
@@ -42,13 +42,13 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 app/              # Next.js App Router pages
 components/       # Reusable React components
   animations/     # FadeIn, SlideIn, CountUp, GradientBg
-  cards/          # ServiceCard, CaseStudyCard, TestimonialCard, FeatureCard
+  cards/          # ServiceCard, CaseStudyCard, FeatureCard
   forms/          # ContactForm, FormInput, FormSelect, FormButton
   hero/           # Hero, HeroWithGradient
   layout/         # Header, Footer, Container
-  sections/       # ClientLogos, TestimonialSection, ProcessTimeline, CTASection
+  sections/       # ClientLogos, ProcessTimeline, CTASection
   ui/             # Button, Badge
-data/             # Static data (services, case studies, testimonials, team)
+data/             # Static data (services, case studies, team)
 lib/              # Constants, types, utilities
 ```
 

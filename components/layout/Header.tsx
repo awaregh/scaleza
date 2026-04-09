@@ -13,7 +13,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="fixed top-0 z-50 w-full border-b border-white/5 bg-slate-950/80 backdrop-blur-xl">
+    <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-slate-950/65 backdrop-blur-2xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link href="/" className="text-xl font-bold text-white">
           {SITE_NAME}
@@ -25,8 +25,8 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className={cn(
-                "text-sm font-medium transition-colors hover:text-white",
+            className={cn(
+                "text-sm font-medium transition-colors hover:text-blue-200",
                 pathname === link.href ? "text-white" : "text-slate-400"
               )}
             >
@@ -66,7 +66,7 @@ export default function Header() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="border-t border-white/5 bg-slate-950/95 backdrop-blur-xl md:hidden"
+            className="border-t border-white/10 bg-slate-950/90 backdrop-blur-2xl md:hidden"
           >
             <div className="flex flex-col gap-4 px-4 py-6">
               {NAV_LINKS.map((link) => (

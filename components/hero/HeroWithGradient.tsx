@@ -7,7 +7,7 @@ import GradientBg from "@/components/animations/GradientBg";
 
 export default function HeroWithGradient() {
   return (
-    <section className="relative flex min-h-[90vh] items-center overflow-hidden bg-transparent pt-20">
+    <section className="relative flex min-h-[90vh] items-center overflow-hidden bg-slate-950/70 pt-20">
       <GradientBg />
       <Container className="relative z-10 py-20 lg:py-32">
         <motion.div
